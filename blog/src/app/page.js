@@ -1,3 +1,11 @@
+import React from "react"
+
 export default function Home() {
-  return <h1>CUBE</h1>
+  return (
+    <React.Fragment>
+      <h1>CUBE</h1>
+      <hr />
+      <p>output</p>
+    </React.Fragment>
+  )
 }
